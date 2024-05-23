@@ -2,26 +2,34 @@ body {
     background-color: black;
     color: rgb(59, 44, 59);
 }
-
+header{
+    display: flex;
+    order: 0;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 6px;
+    color:  plum;
+    border: solid 1px plum;
+}
 .alcinalogo{
     border-radius: 100%;
     max-width: 40%;
+    margin-left: 10px;
+    margin-top: 5px;
 }
-.alcinanome{
-    text-align: center;
-    margin-top: -76px;
-    color: #523053;
-    border: solid 1px plum;
+
+nav{
+    order: 1;
 }
 .teali{
-    margin-left: -830px;
+    margin-left: 110px;
     float: left;
     color: plum;
 }
 .teju{
     color: plum;
     float: left;
-    margin-left: 450px;
+    margin-left: 270px;
 }
 .teva{
     color: plum;
@@ -30,36 +38,42 @@ body {
 }
 .teyas{
     float: left;
-    margin-left: 250px;
+    margin-left: 270px;
     color: plum;
+}
+main{
+    order: 2;
 }
 .resuyas{
     font-size: small;
-    text-align: center;
+    text-align: left;
     float: left;
-    margin-left: 950px;
-    margin-top: -170px;
+    margin-left: 1000px;
+    margin-top: -165px;
     color: plum;
 }
 .resuju{
+    margin-top: -20px;
     font-size: small;
-    text-align: center;
+    text-align: left;
     float: left;
-    margin-left: 20px;
+    margin-left: 50px;
     color: plum;
 }
 .resuali{
+    margin-top: -20px;
     font-size: small;
-    text-align: center;
+    text-align: left;
     float: left;
-    margin-left: -20px;
+    margin-left: 10px;
     color: plum;
 }
 .resuva{
+    margin-top: -20px;
     font-size: small;
-    text-align: center;
+    text-align: left;
     float: left;
-    margin-left: 18px;
+    margin-left: 30px;
     color: plum;
 }
 .portifolioalisson{
@@ -69,29 +83,31 @@ body {
     border-radius: 20px;
 }
 .portifoliojulia{
-margin-left: 23px;
+margin-left: 30px;
 float: left;
 margin-top: 5px;
 border: 2px solid=plum;
 }
 .portifoliovanessa{
     float: left;
-    margin-left: 23px; 
+    margin-left: 30px; 
     margin-top: 5px;
     border: 2px solid=plum;
 }
 .portifolioyasmin{
-    margin-left: 23px;
-    margin-top: 10px;
+    margin-left: 33px;
+    margin-top: 5px;
+    float: left;
     border: 2px solid=plum;
 }
 li {
     list-style-type: none;
   }
 
-.footer{
+footer{
+    order: 3;
     border-top: solid 1px plum;
-    margin-bottom: -310px;
+    margin-bottom: -250px;
     position:absolute;
     left: 0;
     bottom: 5px;
