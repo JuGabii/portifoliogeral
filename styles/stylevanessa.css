@@ -160,7 +160,7 @@ a{
 .footer{
     border-top: solid 1px white;
     margin-bottom: -400px;
-    position:absolute;
+    position:fixed;
     left: 0;
     bottom: 5px;
     width: 100%;

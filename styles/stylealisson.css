@@ -13,7 +13,7 @@ body{
 
 .cabecalho{
     display: flex;
-    flex-direction: row;
+    flex-direction:initial;
     justify-content: space-around;
     align-items: center;
     border-bottom: solid 1px plum;
@@ -29,6 +29,7 @@ body{
 
 .cabecalho_titulo{
     color:#523053;
+    
 }
 
 a{
@@ -157,10 +158,10 @@ a{
     
 }
 
-.footer{
+footer{
     border-top: solid 1px white;
-    margin-bottom: -400px;
-    position:absolute;
+    margin-bottom: -5px;
+    position:fixed;
     left: 0;
     bottom: 5px;
     width: 100%;

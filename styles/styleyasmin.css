@@ -151,10 +151,10 @@ a{
     
 }
 
-.footer{
+footer{
     border-top: solid 1px plum;
     margin-bottom: -280px;
-    position:absolute;
+    position:fixed;
     left: 0;
     bottom: 5px;
     width: 100%;

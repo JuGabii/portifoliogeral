@@ -1,8 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+
 }
 
 body{
@@ -150,11 +149,11 @@ a{
     border-radius: 20px;
     
 }
-
 .footer{
+    order: 3;
     border-top: solid 1px plum;
-    margin-bottom: -280px;
-    position:absolute;
+    margin-bottom: -5px;
+    position:fixed;
     left: 0;
     bottom: 5px;
     width: 100%;
@@ -162,4 +161,3 @@ a{
     color: white;
     text-align: center;
 }
-

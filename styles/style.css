@@ -1,8 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: black;
     color: rgb(59, 44, 59);
 }
 header{
+    padding-top: 50px;
     display: flex;
     order: 0;
     margin-left: 350px;
@@ -19,61 +24,62 @@ header{
 }
 
 nav{
-    order: 1;
+    order: 2;
 }
 .teali{
-    margin-left: 110px;
+    margin-top: 315px;
+margin-left: -190px;
     float: left;
     color: plum;
 }
 .teju{
+    margin-top: -190px;
     color: plum;
     float: left;
-    margin-left: 270px;
+    margin-left: 455px;
 }
 .teva{
+    margin-top: -190px;
     color: plum;
     float: left;
-    margin-left: 250px;
+    margin-left: 755px;
 }
 .teyas{
+    margin-top: -190px;
     float: left;
-    margin-left: 270px;
+    margin-left: 1120px;
     color: plum;
 }
-main{
-    order: 2;
+.resuju{
+    margin-top: 350px;
+    font-size: small;
+    text-align: left;
+    float: left;
+    margin-left: -290px;
+    color: plum;
+}
+.resuali{
+    margin-top: 350px;
+    font-size: small;
+    text-align: left;
+    float: left;
+    margin-left: -290px;
+    color: plum;
+}
+.resuva{
+    margin-top: 350px;
+    font-size: small;
+    text-align: left;
+    float: left;
+    margin-left: -290px;
+    color: plum;
 }
 .resuyas{
     font-size: small;
     text-align: left;
     float: left;
-    margin-left: 1000px;
-    margin-top: -165px;
-    color: plum;
-}
-.resuju{
-    margin-top: -20px;
-    font-size: small;
-    text-align: left;
-    float: left;
-    margin-left: 50px;
-    color: plum;
-}
-.resuali{
-    margin-top: -20px;
-    font-size: small;
-    text-align: left;
-    float: left;
-    margin-left: 10px;
-    color: plum;
-}
-.resuva{
-    margin-top: -20px;
-    font-size: small;
-    text-align: left;
-    float: left;
     margin-left: 30px;
+    margin-top: 40px;
     color: plum;
 }
 .portifolioalisson{
@@ -81,6 +87,7 @@ main{
     margin-top: 5px;
     border: 2px solid=plum;
     border-radius: 20px;
+    margin-left: 10px;
 }
 .portifoliojulia{
 margin-left: 30px;
@@ -90,12 +97,12 @@ border: 2px solid=plum;
 }
 .portifoliovanessa{
     float: left;
-    margin-left: 30px; 
+    margin-left: 15px; 
     margin-top: 5px;
     border: 2px solid=plum;
 }
 .portifolioyasmin{
-    margin-left: 33px;
+    margin-left: 20px;
     margin-top: 5px;
     float: left;
     border: 2px solid=plum;
@@ -107,8 +114,8 @@ li {
 footer{
     order: 3;
     border-top: solid 1px plum;
-    margin-bottom: -250px;
-    position:absolute;
+    margin-bottom: -5px;
+    position:fixed;
     left: 0;
     bottom: 5px;
     width: 100%;
